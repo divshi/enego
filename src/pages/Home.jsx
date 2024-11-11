@@ -13,7 +13,6 @@ const Home = () => {
       <Header />
       <main>
         <Hero />
-        <About />
         <Services />
         <Contact />
       </main>

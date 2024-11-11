@@ -27,9 +27,6 @@ const Header = () => {
           </button>
           {isDropdownOpen && (
             <div className="absolute top-full left-0 mt-2 w-48 bg-white shadow-lg rounded-md">
-              <a href="#service1" className="block px-4 py-2 hover:bg-blue-500 hover:text-white">Service 1</a>
-              <a href="#service2" className="block px-4 py-2 hover:bg-blue-500 hover:text-white">Service 2</a>
-              <a href="#service3" className="block px-4 py-2 hover:bg-blue-500 hover:text-white">Service 3</a>
             </div>
           )}
         </div>

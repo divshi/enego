@@ -11,7 +11,7 @@ const Certifications = () => {
           
         {/* Services Section */}
         <div className="my-12 text-center">
-            <h2 className="text-6xl font-bold">Acquire Certifications</h2>
+            <h2 className="text-6xl mt-20 font-bold">Acquire Certifications</h2>
             <div className="flex flex-wrap justify-center gap-10 mt-10">
                 <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-96 transform transition-transform duration-300 hover:scale-105">
                 <img src={s1} alt="Start Your Business" className="w-30 h-20 mb-4"/>

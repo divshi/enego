@@ -20,10 +20,10 @@ const Hero = () => {
   return (
     <section className="h-screen bg-cover bg-center relative" style={{ backgroundImage: `url(${bannerImage})` }}>
       {/* Blue Opaque Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-blue-900 opacity-60"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-blue-100 opacity-80"></div>
       
       {/* Left Side Content */}
-      <div className="relative z-10 flex items-center justify-center w-full h-full px-10 text-white">
+      <div className="relative z-10 flex items-center justify-center w-full h-full px-10 text-black">
         <div className="space-y-6 text-center max-w-2xl w-full">
           <h1 className="text-7xl font-extrabold leading-tight">
             We can help
@@ -35,7 +35,7 @@ const Hero = () => {
             <span className="text-blue-900">{currentText}</span>
           </h1>
           <h2 className="text-3xl font-extrabold">
-            <span className="text-white">आपकी सफलता , हमारी जिम्मेदारी</span>
+            <span className="text-black">आपकी सफलता , हमारी जिम्मेदारी</span>
           </h2>
 
           <div className="flex items-center justify-center space-x-20">

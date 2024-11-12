@@ -4,10 +4,15 @@ import s2 from '../assets/s14.jpeg';
 import s3 from '../assets/s15.jpeg';
 import s4 from '../assets/s16.jpeg';
 import s5 from '../assets/s17.jpeg';
+import bannerImage from '../assets/banner2.jpeg.png';
 
 const Certifications = () => {
     return (
-        <div className="flex flex-col items-center min-h-screen text-blue-900 p-10">
+      <section className="h-screen bg-cover bg-center relative" style={{ backgroundImage: `url(${bannerImage})` }}>
+        {/* Apply opacity via an overlay */}
+        <div className="absolute inset-0 bg-white opacity-80"></div>
+
+        <div className="flex flex-col items-center min-h-screen text-blue-900 p-10 relative z-10">
 
             {/* Heading */}
             <div className="text-center my-12">
@@ -24,12 +29,12 @@ const Certifications = () => {
                         { src: s4, title: "ZED Certification" },
                         { src: s5, title: "Tax Exemption Certificate" },
                     ].map((item, index) => (
-                        <div key={index} className="flex flex-col items-center p-6 bg-gradient-to-br from-white via-gray-100 to-gray-200 rounded-lg shadow-xl w-[350px] h-[350px] transition-transform duration-300 hover:scale-105">
+                        <div key={index} className="flex flex-col items-center justify-center p-6 bg-blue-900 rounded-full shadow-xl w-[350px] h-[350px] transition-transform duration-300 hover:scale-105">
                             <div className="w-20 h-20 mb-4 rounded-full overflow-hidden shadow-lg bg-white">
                                 <img src={item.src} alt={item.title} className="w-full h-full object-cover"/>
                             </div>
-                            <p className="text-xl font-semibold text-blue-900 text-center">{item.title}</p>
-                            <p className="text-gray-600 text-center mt-2 text-sm">Achieve {item.title} and enhance your business growth.</p>
+                            <p className="text-xl font-semibold text-white text-center">{item.title}</p>
+                            <p className="text-gray-200 text-center mt-2 text-sm">Achieve {item.title} and enhance your business growth.</p>
                         </div>
                     ))}
                 </div>
@@ -65,6 +70,7 @@ const Certifications = () => {
                 }
             `}</style>
         </div>
+      </section>
     );
 };
 

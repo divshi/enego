@@ -7,6 +7,8 @@ import Services from '../components/Services';
 import ServicesGrid from '../components/ServicesGrid';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Business from '../components/Business';
+import Certifications from '../components/Certifications';
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <Services />
         <ServicesGrid />
         {/* <Contact /> */}
+        <Business />
+        <Certifications />
       </main>
       <Footer />
     </div>

@@ -1,12 +1,12 @@
 import React from 'react';
-import s1 from '../assects/s18.jpeg';
-import s2 from '../assects/d1.jpeg';
-import s3 from '../assects/d2.jpeg';
-import s4 from '../assects/d3.jpeg';
-import s5 from '../assects/d4.jpeg';
-import s6 from '../assects/d5.jpeg';
-import s7 from '../assects/d6.jpeg';
-import s8 from '../assects/d7.jpeg';
+import s1 from '../assets/s18.jpeg';
+import s2 from '../assets/d1.jpeg';
+import s3 from '../assets/d2.jpeg';
+import s4 from '../assets/d3.jpeg';
+import s5 from '../assets/d4.jpeg';
+import s6 from '../assets/d5.jpeg';
+import s7 from '../assets/d6.jpeg';
+import s8 from '../assets/d7.jpeg';
 
 const StartupFunding = () => {
     return (

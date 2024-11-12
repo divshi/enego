@@ -1,9 +1,9 @@
 import React from 'react';
-import s1 from '../assects/s13.jpeg';
-import s2 from '../assects/s14.jpeg';
-import s3 from '../assects/s15.jpeg';
-import s4 from '../assects/s16.jpeg';
-import s5 from '../assects/s17.jpeg';
+import s1 from '../assets/s13.jpeg';
+import s2 from '../assets/s14.jpeg';
+import s3 from '../assets/s15.jpeg';
+import s4 from '../assets/s16.jpeg';
+import s5 from '../assets/s17.jpeg';
 
 const Certifications = () => {
     return (

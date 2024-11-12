@@ -1,10 +1,10 @@
 import React from 'react';
-import s1 from '../assects/s5.jpeg';
-import s2 from '../assects/s6.jpeg';
-import s3 from '../assects/s7.jpeg';
-import s4 from '../assects/s8.jpeg';
-import s5 from '../assects/s9.jpeg';
-import s6 from '../assects/s10.jpeg';
+import s1 from '../assets/s5.jpeg';
+import s2 from '../assets/s6.jpeg';
+import s3 from '../assets/s7.jpeg';
+import s4 from '../assets/s8.jpeg';
+import s5 from '../assets/s9.jpeg';
+import s6 from '../assets/s10.jpeg';
 
 const ServicesGrid = () => {
     return (

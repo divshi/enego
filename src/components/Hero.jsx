@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import bannerImage from '../assects/banner.jpeg';
+import bannerImage from '../assets/banner.jpeg';
 
 const Hero = () => {
   const [currentText, setCurrentText] = useState('Growth');

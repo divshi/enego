@@ -1,7 +1,7 @@
 // src/components/Header.js
 import React, { useState } from 'react';
 import { FaPhoneAlt } from 'react-icons/fa';
-import logo from '../assects/logo.png';
+import logo from '../assets/logo.png';
 const Header = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 

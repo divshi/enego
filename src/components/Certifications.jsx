@@ -24,7 +24,7 @@ const Certifications = () => {
                         { src: s4, title: "ZED Certification" },
                         { src: s5, title: "Tax Exemption Certificate" },
                     ].map((item, index) => (
-                        <div key={index} className="flex flex-col items-center p-6 bg-gradient-to-br from-white via-gray-100 to-gray-200 rounded-lg shadow-xl w-80 transition-transform duration-300 hover:scale-105">
+                        <div key={index} className="flex flex-col items-center p-6 bg-gradient-to-br from-white via-gray-100 to-gray-200 rounded-lg shadow-xl w-[350px] h-[350px] transition-transform duration-300 hover:scale-105">
                             <div className="w-20 h-20 mb-4 rounded-full overflow-hidden shadow-lg bg-white">
                                 <img src={item.src} alt={item.title} className="w-full h-full object-cover"/>
                             </div>
@@ -60,6 +60,7 @@ const Certifications = () => {
 
                 @keyframes scroll {
                     0% { transform: translateX(100%); }
+                    50% { transform: translateX(0); }
                     100% { transform: translateX(-100%); }
                 }
             `}</style>

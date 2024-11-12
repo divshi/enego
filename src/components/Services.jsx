@@ -23,10 +23,10 @@ const Services = () => {
     }, []);
 
     return (
-        <div className="flex flex-col items-center">
+            <div className="flex flex-col justify-center items-center w-[1300px] bg-blue-100 mx-auto mt-20 rounded-xl">
 
             {/* Stats Section */}
-            <div className="flex justify-around w-full bg-gradient-to-r from-blue-900 via-indigo-500 via-blue-500 to-blue-900 text-white py-8 mt-20 mx-4 lg:mx-16 rounded-xl shadow-lg">
+            <div className="flex justify-around w-[1000px] bg-gradient-to-r from-blue-900 via-indigo-500 via-blue-500 to-blue-900 text-white py-8 mt-20 mx-4 lg:mx-16 rounded-xl shadow-lg">
                 <div className="text-center space-y-2">
                     <p className="text-6xl font-extrabold">60+</p>
                     <p className="text-lg">Service Options</p>
@@ -58,7 +58,7 @@ const Services = () => {
                                     : 'opacity-0 translate-x-full'
                             }`}
                         >
-                            <div className="flex flex-col items-center p-12 bg-gradient-to-r from-blue-900 via-indigo-500 via-blue-500 to-blue-900 rounded-lg shadow-xl w-[380px] h-90 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                            <div className="flex flex-col items-center p-10 bg-gradient-to-r from-blue-900 via-indigo-500 via-blue-500 to-blue-900 rounded-lg shadow-xl w-[380px] h-90 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                                 <img
                                     src={service.image}
                                     alt={service.title}
@@ -70,10 +70,6 @@ const Services = () => {
                     ))}
                 </div>
             </div>
-
-            <button className="px-24 py-4 text-2xl font-semibold text-white bg-blue-900 rounded-full hover:bg-blue-700 transform transition-transform duration-300 hover:scale-105 shadow-lg mb-10">
-                Book Consultation
-            </button>
 
         </div>
     );

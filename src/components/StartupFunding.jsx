@@ -35,7 +35,7 @@ const StartupFunding = () => {
 
     return (
         <section className="h-screen bg-cover bg-center relative">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-transparent to-blue-900 p-8 text-white min-h-screen flex flex-col items-center justify-center">
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-blue-200 to-blue-200 p-8 text-blue-900 min-h-screen flex flex-col items-center justify-center">
             {/* Heading */}
             <div className="text-center mb-12">
                 <h2 className="text-6xl font-bold">Startup Funding</h2>

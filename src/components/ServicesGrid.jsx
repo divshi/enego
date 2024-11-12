@@ -30,7 +30,7 @@ const ServicesGrid = () => {
                 ].map((service, index) => (
                     <div
                         key={index}
-                        className="flex items-center p-8 bg-gradient-to-r from-blue-900 to-indigo-600 rounded-xl shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl"
+                        className=" items-center p-8 bg-gradient-to-r from-blue-900 to-indigo-600 rounded-xl shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl"
                     >
                         <img src={service.img} alt={service.title} className="w-24 h-24 mr-8 rounded-full shadow-lg border-4 border-white"/>
                         <div>

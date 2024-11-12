@@ -34,7 +34,7 @@ const StartupFunding = () => {
     }, []);
 
     return (
-        <section className="h-screen bg-cover bg-center relative" style={{ backgroundImage: `url(${banner2})` }}>
+        <section className="h-screen bg-cover bg-center relative">
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-transparent to-blue-900 p-8 text-white min-h-screen flex flex-col items-center justify-center">
             {/* Heading */}
             <div className="text-center mb-12">

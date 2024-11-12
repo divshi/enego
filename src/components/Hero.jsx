@@ -29,7 +29,7 @@ const Hero = () => {
           <br />
           company's
           <br />
-          <span className="text-blue-500">{currentText}</span>
+          <span className="text-blue-900">{currentText}</span>
         </h1>
           <br />
           <h2 className="text-3xl font-extrabold leading-tight">
@@ -38,14 +38,14 @@ const Hero = () => {
 
         <div className="flex items-center justify-center space-x-20">
             <div className="text-2xl text-center">
-                <span className="text-blue-500">1,000+</span> <br /> Happy Clients
+                <span className="text-blue-900">1,000+</span> <br /> Happy Clients
             </div>
             <div className="text-2xl text-center">
-                <span className="text-blue-500">100%</span> <br /> Client Satisfaction
+                <span className="text-blue-900">100%</span> <br /> Client Satisfaction
             </div>
         </div>
 
-        <a href="#contact" className="inline-flex items-center bg-blue-500 text-white px-6 py-3 hover:bg-blue-700 mt-6">
+        <a href="#contact" className="inline-flex items-center bg-blue-900 text-white px-6 py-3 hover:bg-blue-900 mt-6">
         Connect With Us
         <FaArrowRight className="ml-3" />
         </a>

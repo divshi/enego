@@ -14,14 +14,14 @@ const Header = () => {
 
       {/* Navigation Links */}
       <nav className="flex space-x-10 items-center"> 
-        <a href="#home" className="hover:text-blue-500 hover:underline">Home</a>
-        <a href="#about" className="hover:text-blue-500 hover:underline">About Us</a>
+        <a href="#home" className="hover:text-blue-900 hover:underline">Home</a>
+        <a href="#about" className="hover:text-blue-900 hover:underline">About Us</a>
 
         {/* Professional Services Dropdown */}
         <div className="relative">
           <button 
             onClick={() => setDropdownOpen(!isDropdownOpen)} 
-            className="hover:text-blue-500 hover:underline"
+            className="hover:text-blue-900 hover:underline"
           >
             Professional Services
           </button>
@@ -31,10 +31,10 @@ const Header = () => {
           )}
         </div>
 
-        <a href="#contact" className="hover:text-blue-500 hover:underline">Contact</a>
+        <a href="#contact" className="hover:text-blue-900 hover:underline">Contact</a>
 
         {/* Phone Number in Blue Capsule */}
-        <a href="tel:+919289247741" className="flex items-center bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700">
+        <a href="tel:+919289247741" className="flex items-center bg-blue-900 text-white px-4 py-2 rounded-full hover:bg-blue-900">
           <FaPhoneAlt className="mr-2" /> {/* Icon with margin to right */}
           +91 9289247741
         </a>

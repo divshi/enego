@@ -5,7 +5,7 @@ const Services = () => {
     return (
       <div className="flex flex-col items-center ">
         {/* Stats Section */}
-        <div className="flex justify-around w-full bg-blue-500 text-white py-8 mt-20 mx-4 ">
+        <div className="flex justify-around w-full bg-blue-900 text-white py-8 mt-20 mx-4 ">
         <div className="text-center">
             <p className="text-6xl font-bold">60+</p>
             <p className="text-lg">Service Option</p>
@@ -49,7 +49,7 @@ const Services = () => {
   
         {/* Book Consultation Button */}
         <div className="my-8">
-          <button className="px-10 py-3 text-lg font-semibold text-white bg-blue-500 rounded-full hover:bg-purple-700">
+          <button className="px-10 py-3 text-lg font-semibold text-white bg-blue-900 rounded-full hover:bg-purple-700">
             Book Consultation
           </button>
         </div>

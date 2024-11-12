@@ -37,7 +37,7 @@ const Certifications = () => {
             </div>
 
              
-            <button style={{ width: "500px", margin: "20px" }} className="px-20 py-3 text-2xl font-semibold text-white bg-blue-900 rounded-full hover:bg-blue-700">
+            <button style={{ width: "500px", margin: "40px" }} className="px-20 py-3 text-2xl font-semibold text-white bg-blue-900 rounded-full hover:bg-blue-700">
             Book Consultation
             </button>
             

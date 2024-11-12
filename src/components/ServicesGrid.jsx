@@ -61,8 +61,8 @@ const ServicesGrid = () => {
             </div>
 
             {/* Book Consultation Button */}
-            <div className="mt-12 text-center">
-                <button className="px-16 py-4 text-lg font-semibold text-blue-900 bg-white rounded-full hover:bg-gray-200">
+            <div className=" text-center">
+                <button style={{ width: "500px", margin: "40px" }} className="px-20 py-3 text-2xl font-semibold text-black bg-white rounded-full hover:bg-grey-200">
                     Book Consultation
                 </button>
             </div>

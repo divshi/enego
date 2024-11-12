@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import bannerImage from '../assets/banner.jpeg';
+import bannerImage from '../assets/banner.jpg';
 
 const Hero = () => {
   const [currentText, setCurrentText] = useState('Growth');
@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className="h-screen bg-cover bg-center relative" style={{ backgroundImage: `url(${bannerImage})` }}>
       {/* Blue Opaque Overlay */}
-      <div className="absolute top-0 left-0 w-full h-full bg-blue-100 opacity-80"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-blue-100 opacity-10"></div>
       
       {/* Left Side Content */}
       <div className="relative z-10 flex items-center justify-center w-full h-full px-10 text-black">

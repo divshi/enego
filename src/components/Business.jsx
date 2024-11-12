@@ -1,6 +1,6 @@
 import React from 'react';
 import s1 from '../assets/s11.jpeg';
-import s2 from '../assets/s12.jpeg';
+import s2 from '../assets/s12.jpg';
 
 const Business = () => {
     return (

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import s1 from '../assets/s1.jpeg';
 import s2 from '../assets/s2.jpeg';
 import s3 from '../assets/s3.jpeg';
@@ -12,21 +12,11 @@ const servicesData = [
 ];
 
 const Services = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % servicesData.length);
-        }, 3000); // Change every 3 seconds
-
-        return () => clearInterval(interval); // Cleanup interval on component unmount
-    }, []);
-
     return (
-            <div className="flex flex-col justify-center items-center w-[1300px] bg-blue-100 mx-auto mt-20 rounded-xl">
+        <div className="flex flex-col justify-center items-center w-full max-w-6xl mx-auto mt-20 px-4">
 
             {/* Stats Section */}
-            <div className="flex justify-around w-[1000px] bg-gradient-to-r from-blue-900 via-indigo-500 via-blue-500 to-blue-900 text-white py-8 mt-20 mx-4 lg:mx-16 rounded-xl shadow-lg">
+            <div className="flex justify-around w-full bg-gradient-to-r from-blue-700 via-red-600 to-blue-900 text-white py-8 mt-12 mx-4 lg:mx-16 rounded-xl shadow-xl">
                 <div className="text-center space-y-2">
                     <p className="text-6xl font-extrabold">60+</p>
                     <p className="text-lg">Service Options</p>
@@ -46,26 +36,19 @@ const Services = () => {
             </div>
 
             {/* Services Section */}
-            <div className="my-8 text-center"> {/* Reduced margin here */}
-                <h2 className="text-6xl font-extrabold mb-8 text-blue-900">Our Services</h2>
-                <div className="relative w-full h-[400px]"> {/* Container height kept the same */}
+            <div className="my-8 text-center w-full">
+                <h2 className="text-5xl font-extrabold mb-8 text-blue-900">Our Services</h2>
+                <div className="flex justify-between w-full space-x-6">
                     {servicesData.map((service, index) => (
-                        <div
-                            key={index}
-                            className={`absolute w-full h-full transition-all duration-1000 transform ${
-                                index === currentIndex
-                                    ? 'opacity-100 translate-x-0'
-                                    : 'opacity-0 translate-x-full'
-                            }`}
-                        >
-                            <div className="flex flex-col items-center p-10 bg-gradient-to-r from-blue-900 via-indigo-500 via-blue-500 to-blue-900 rounded-lg shadow-xl w-[380px] h-90 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                        <div key={index} className="flex flex-col items-center p-6 w-[23%]">
+                            <div className="relative">
                                 <img
                                     src={service.image}
                                     alt={service.title}
-                                    className="w-32 h-32 mb-6 rounded-full border-4 border-white"
+                                    className="w-32 h-32 mb-6 rounded-full shadow-[0_8px_20px_rgba(0,0,0,0.2)]" // Customized shadow to make it even
                                 />
-                                <p className="text-xl font-semibold text-white">{service.title}</p>
                             </div>
+                            <p className="text-xl font-semibold text-blue-900">{service.title}</p>
                         </div>
                     ))}
                 </div>

@@ -9,12 +9,12 @@ import banner2 from '../assets/banner2.jpeg.png';
 
 const ServicesGrid = () => {
     return (
-        <section className="h-screen bg-cover bg-center relative" style={{ backgroundImage: `url(${banner2})` }}>
+        <section className="h-screen bg-cover bg-center relative">
             {/* Background Overlay */}
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-blue-900 to-transparent">
                 
                 {/* Heading */}
-                <div className="text-center text-white pt-24 mb-12">
+                <div className="text-center text-blue-900 pt-24 mb-12">
                     <h2 className="text-6xl font-extrabold tracking-wider">Start Your Business</h2>
                 </div>
 

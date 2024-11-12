@@ -33,9 +33,8 @@ const Header = () => {
 
         <a href="#contact" className="hover:text-blue-900 hover:underline">Contact</a>
 
-        {/* Phone Number in Blue Capsule */}
         <a href="tel:+919289247741" className="flex items-center bg-blue-900 text-white px-4 py-2 rounded-full hover:bg-blue-900">
-          <FaPhoneAlt className="mr-2" /> {/* Icon with margin to right */}
+          <FaPhoneAlt className="mr-2" />
           +91 9289247741
         </a>
       </nav>

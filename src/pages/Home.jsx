@@ -9,6 +9,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Business from '../components/Business';
 import Certifications from '../components/Certifications';
+import StartupFunding from '../components/StartupFunding';
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         {/* <Contact /> */}
         <Business />
         <Certifications />
+        <StartupFunding />
       </main>
       <Footer />
     </div>

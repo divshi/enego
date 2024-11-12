@@ -1,10 +1,12 @@
 import React from 'react';
-import s1 from '../assects/s5.jpeg';
-import s2 from '../assects/s6.jpeg';
-import s3 from '../assects/s7.jpeg';
-import s4 from '../assects/s8.jpeg';
-import s5 from '../assects/s9.jpeg';
-import s6 from '../assects/s10.jpeg';
+import s1 from '../assects/s18.jpeg';
+import s2 from '../assects/d1.jpeg';
+import s3 from '../assects/d2.jpeg';
+import s4 from '../assects/d3.jpeg';
+import s5 from '../assects/d4.jpeg';
+import s6 from '../assects/d5.jpeg';
+import s7 from '../assects/d6.jpeg';
+import s8 from '../assects/d7.jpeg';
 
 const StartupFunding = () => {
     return (
@@ -59,14 +61,14 @@ const StartupFunding = () => {
                     </div>
                 </div>
                 <div className="flex items-center p-6 bg-white rounded-lg shadow-md w-96 text-black transform transition-transform duration-300 hover:scale-105">
-                    <img src={s5} alt="Proprietorship" className="w-16 h-16 mr-4"/>
+                    <img src={s7} alt="Proprietorship" className="w-16 h-16 mr-4"/>
                     <div>
                         <h3 className="text-lg font-semibold">Greenfield Loan</h3>
                         <p>Get your greens straight for your business! Is your business a greenfield project? Greenfield projects are those projects which are still in their initial stages...</p>
                     </div>
                 </div>
                 <div className="flex items-center p-6 bg-white rounded-lg shadow-md w-96 text-black transform transition-transform duration-300 hover:scale-105">
-                    <img src={s6} alt="Goods and Service Tax" className="w-16 h-16 mr-4"/>
+                    <img src={s8} alt="Goods and Service Tax" className="w-16 h-16 mr-4"/>
                     <div>
                         <h3 className="text-lg font-semibold">Unsecured Business Loans</h3>
                         <p>Now don’t worry about the collateral for availing loans for your business! No need for collateral if you are looking for funds as a budding entrepreneur or someone who...</p>

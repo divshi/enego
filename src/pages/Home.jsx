@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 import Business from '../components/Business';
 import Certifications from '../components/Certifications';
 import StartupFunding from '../components/StartupFunding';
-
+ 
 const Home = () => {
   return (
     <div>

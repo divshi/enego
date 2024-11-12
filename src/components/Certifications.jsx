@@ -7,7 +7,7 @@ import s5 from '../assets/s17.jpeg';
 
 const Certifications = () => {
     return (
-        <div className="flex flex-col items-center min-h-screen bg-gradient-to-t from-blue-900 to-transparent text-blue-900 p-10">
+        <div className="flex flex-col items-center min-h-screen text-blue-900 p-10">
 
             {/* Heading */}
             <div className="text-center my-12">

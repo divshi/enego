@@ -6,7 +6,7 @@ const Header = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-5 bg-white shadow-md fixed w-full z-10">
+    <header className="flex justify-between items-center p-5 bg-white shadow-md fixed w-full z-20">
       {/* Company Logo */}
       <div>
         <img src={logo} alt="Enego Logo" className="h-10" /> 

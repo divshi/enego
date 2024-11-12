@@ -28,6 +28,7 @@ const Certifications = () => {
                         { src: s3, title: "Udyam Certification" },
                         { src: s4, title: "ZED Certification" },
                         { src: s5, title: "Tax Exemption Certificate" },
+
                     ].map((item, index) => (
                         <div key={index} className="flex flex-col items-center justify-center p-6 bg-blue-900 rounded-full shadow-xl w-[350px] h-[350px] transition-transform duration-300 hover:scale-105">
                             <div className="w-20 h-20 mb-4 rounded-full overflow-hidden shadow-lg bg-white">
@@ -60,7 +61,7 @@ const Certifications = () => {
                 .animate-scroll {
                     display: flex;
                     gap: 2rem;
-                    animation: scroll 20s linear infinite;
+                    animation: scroll 0s linear infinite;
                 }
 
                 @keyframes scroll {

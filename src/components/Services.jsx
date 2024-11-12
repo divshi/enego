@@ -31,28 +31,29 @@ const Services = () => {
   
         {/* Services Section */}
         <div className="my-12 text-center">
-          <h2 className="text-6xl font-bold">Our Services</h2>
-          <div className="flex flex-wrap justify-center gap-8 mt-6">
-            <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-64 transform transition-transform duration-300 hover:scale-105">
-              <img src={s1} alt="Start Your Business" className="w-20 h-20 mb-4"/>
-              <p className="text-lg font-medium">Start Your Business</p>
+            <h2 className="text-6xl font-bold">Our Services</h2>
+            <div className="flex flex-wrap justify-center gap-8 mt-6">
+                <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-72 transform transition-transform duration-300 hover:scale-105">
+                <img src={s1} alt="Start Your Business" className="w-20 h-20 mb-4"/>
+                <p className="text-lg font-medium">Start Your Business</p>
+                </div>
+                <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-72 transform transition-transform duration-300 hover:scale-105">
+                <img src={s2} alt="Grow Your Business" className="w-20 h-20 mb-4"/>
+                <p className="text-lg font-medium">Grow Your Business</p>
+                </div>
+                <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-72 transform transition-transform duration-300 hover:scale-105">
+                <img src={s3} alt="Acquire Certifications" className="w-20 h-20 mb-4"/>
+                <p className="text-lg font-medium">Acquire Certifications</p>
+                </div>
+                <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-72 transform transition-transform duration-300 hover:scale-105">
+                <img src={s4} alt="Secure Funding" className="w-20 h-20 mb-4"/>
+                <p className="text-lg font-medium">Secure Funding</p>
+                </div>
             </div>
-            <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-64 transform transition-transform duration-300 hover:scale-105">
-              <img src={s2} alt="Grow Your Business" className="w-20 h-20 mb-4"/>
-              <p className="text-lg font-medium">Grow Your Business</p>
             </div>
-            <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-64 transform transition-transform duration-300 hover:scale-105">
-              <img src={s3} alt="Acquire Certifications" className="w-20 h-20 mb-4"/>
-              <p className="text-lg font-medium">Acquire Certifications</p>
-            </div>
-            <div className="flex flex-col items-center p-8 bg-white rounded-lg shadow-md w-64 transform transition-transform duration-300 hover:scale-105">
-              <img src={s4} alt="Secure Funding" className="w-20 h-20 mb-4"/>
-              <p className="text-lg font-medium">Secure Funding</p>
-            </div>
-          </div>
-        </div>
+
   
-        <button style={{ width: "500px" }} className="px-20 py-3 text-2xl font-semibold text-white bg-blue-900 rounded-full hover:bg-blue-700">
+        <button style={{ width: "500px", margin: "20px" }} className="px-20 py-3 text-2xl font-semibold text-white bg-blue-900 rounded-full hover:bg-blue-700">
         Book Consultation
         </button>
 

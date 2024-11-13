@@ -22,16 +22,16 @@ const services = [
 
 const StartupFunding = () => {
     return (
-        <section className="relative min-h-screen bg-gradient-to-br from-white via-blue-50 to-white text-gray-900 py-13 mt-10 overflow-hidden">
+        <section className="relative min-h-screen bg-gradient-to-br from-white via-blue-50 to-white text-gray-900 py-13 overflow-hidden">
             {/* Floating Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full opacity-20">
-                <div className="bg-red-400 w-40 h-40 rounded-full absolute -top-10 -left-20 animate-pulse"></div>
+                <div className="bg-red-400 w-40 h-40 rounded-full absolute -top-0 -left-20 animate-pulse"></div>
                 <div className="bg-blue-500 w-20 h-20 rounded-full absolute bottom-10 right-10 animate-pulse"></div>
                 <div className="bg-blue-700 w-32 h-32 rounded-full absolute top-1/2 left-1/3 animate-bounce"></div>
             </div>
             {/* Heading */}
             <div className="text-center mb-12">
-                <h2 className="text-5xl font-bold text-blue-900">Startup Funding</h2>
+                <h2 className="text-5xl font-bold text-blue-900 mt-10">Startup Funding</h2>
             </div>
 
             {/* Services Cards */}

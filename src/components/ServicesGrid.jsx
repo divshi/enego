@@ -10,8 +10,8 @@ import s6 from '../assets/s10.jpeg';
 const servicesData = [
     { img: s1, title: 'AGNii', description: 'Accelerating New Innovations...', icon: FaLightbulb },
     { img: s2, title: 'GeM', description: 'Transparency in e-marketplace...', icon: FaChartLine },
-    { img: s3, title: 'Private Limited', description: 'Private Limited Company...', icon: FaBuilding },
-    { img: s4, title: 'Limited Liability Partnership', description: 'Features similar to traditional...', icon: FaHandsHelping },
+    { img: s3, title: 'Private Limited', description: 'Private Limited Company...', icon: FaHandsHelping },
+    { img: s4, title: 'Limited Liability Partnership', description: 'Features similar to traditional...', icon: FaBuilding },
     { img: s5, title: 'Proprietorship', description: 'Single person management...', icon: FaUserTie },
     { img: s6, title: 'Goods and Service Tax', description: 'GST registration and regulation...', icon: FaReceipt },
 ];
@@ -21,7 +21,7 @@ const ServicesGrid = () => {
         <section className="relative min-h-screen bg-gradient-to-br from-white via-blue-50 to-white text-gray-900 py-13 mt-10 overflow-hidden">
             {/* Floating Background Elements */}
             <div className="absolute top-0 left-0 w-full h-full opacity-20">
-                <div className="bg-red-400 w-40 h-40 rounded-full absolute -top-10 -left-20 animate-pulse"></div>
+                <div className="bg-red-400 w-40 h-40 rounded-full absolute -top-0 -left-20 animate-pulse"></div>
                 <div className="bg-blue-500 w-20 h-20 rounded-full absolute bottom-10 right-10 animate-pulse"></div>
                 <div className="bg-blue-700 w-32 h-32 rounded-full absolute top-1/2 left-1/3 animate-bounce"></div>
             </div>
